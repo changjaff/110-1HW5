@@ -16,7 +16,7 @@ namespace _110_1HW5
 
             ddl_Place.Items.Add("基隆");
             ddl_Place.Items.Add("台北");
-            ddl_Place.Items.Add("基隆");
+            ddl_Place.Items.Add("新北");
             ddl_Place.Items.Add("苗栗");
             ddl_Place.Items.Add("台中");
             ddl_Place.Items.Add("南投");
