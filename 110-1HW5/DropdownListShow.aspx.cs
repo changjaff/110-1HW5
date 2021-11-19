@@ -11,20 +11,24 @@ namespace _110_1HW5
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ListItem o_Li = new ListItem("北區", "北區");
-            ddl_Area.Items.Add(o_Li);
+            if(IsPostBack == false)
+            {
+                ListItem o_Li = new ListItem("北區", "北區");
+                ddl_Area.Items.Add(o_Li);
 
-            o_Li = new ListItem("中區", "中區");
-            ddl_Area.Items.Add(o_Li);
+                o_Li = new ListItem("中區", "中區");
+                ddl_Area.Items.Add(o_Li);
 
-            o_Li = new ListItem("基隆", "基隆");
-            ddl_Place.Items.Add(o_Li);
+                o_Li = new ListItem("基隆", "基隆");
+                ddl_Place.Items.Add(o_Li);
 
-            o_Li = new ListItem("台北", "台北");
-            ddl_Place.Items.Add(o_Li);
+                o_Li = new ListItem("台北", "台北");
+                ddl_Place.Items.Add(o_Li);
 
-            o_Li = new ListItem("新北", "新北");
-            ddl_Place.Items.Add(o_Li);
+                o_Li = new ListItem("新北", "新北");
+                ddl_Place.Items.Add(o_Li);
+            }
+            
 
 
         }
